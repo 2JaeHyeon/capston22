@@ -41,9 +41,25 @@ ex) <br>
 ## BMI 계산창
 <img src="img/mma1.png" width="220" height="350">
 
-BMI 계산하는 결과값에서 계산할 "키"값과 "몸무게"값을 대입하고
-계산을 누르면 밑에 23.66처럼 BMI 값이 나오는데 여기서 BMI를 확인하고 자신이 어느정도인지 확인할수있는 창을 만들었고 
+BMI 계산하는 결과값에서 계산할 "키"값과 "몸무게"값을 대입하고 <br>
+계산을 누르면 밑에 23.66처럼 BMI 값이 나오는데 여기서 BMI를 확인하고 자신이 어느정도인지 확인할수있는 창을 만들었고<br> 
 밑에 저체중 ~ 고도비만까지 각각의 색을 입혀서 경각심을 느끼게끔 제작을 해보았다. 
+
+```
+    <EditText
+        android:id="@+id/height"
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:maxLength="3"
+        android:background="@drawable/color" />
+```
+background 부분에 @drawable을 적용하여서 <br>
+html에서 css부분처럼 적용하여서 
+EditText부분에 박스처럼 보이는 이미지를 생성 
+
 
 <hr>
 
