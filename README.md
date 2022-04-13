@@ -39,7 +39,7 @@ ex) <br>
 제각각다른 값을 지정해주었다.
 
 ## BMI 계산창
-![Screenshot_20220413_152811](https://user-images.githubusercontent.com/79895999/163122806-f31142a4-6f3b-4e53-95fe-e7710d37b5ae.png)
+<img src="img/mma1.png" width="220" height="350">
 
 BMI 계산하는 결과값에서 계산할 "키"값과 "몸무게"값을 대입하고
 계산을 누르면 밑에 23.66처럼 BMI 값이 나오는데 여기서 BMI를 확인하고 자신이 어느정도인지 확인할수있는 창을 만들었고 
