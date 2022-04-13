@@ -19,9 +19,38 @@ ex) <br>
 내용은 자유 <br>
 예) 회의 내용, 개발 과정, 오류해결, 보고서 작성(제출) <br> -->
 
+## 0413 이재현 프로젝트
+![0413](https://user-images.githubusercontent.com/79895999/163120776-b8402880-19b8-44d9-a622-27cf94e99653.png)
+## 메인화면 재수정작업
+디자인을 구현한 PC에서 가동하였으나 열리지않아서 학교 PC에서 재구현하고 입력받는 속성값에 제한을 두어서 값을 넘기지 않도록 구현 <br> 
+```
+    <EditText
+        android:id="@+id/height"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:background="@drawable/color"
+        android:hint="  키를 입력하세요."
+        android:inputType="number"
+        android:maxLength="3" />
+```
+코드에서 maxLength값을 지정해주면서 3자리 이상부터는 받지않도록
+구현하였다 나머지 몸무게/나이/성별에도 같은 코드를 지정해주면서
+제각각다른 값을 지정해주었다.
+
+## BMI 계산창
+![Screenshot_20220413_152811](https://user-images.githubusercontent.com/79895999/163122806-f31142a4-6f3b-4e53-95fe-e7710d37b5ae.png)
+
+BMI 계산하는 결과값에서 계산할 "키"값과 "몸무게"값을 대입하고
+계산을 누르면 밑에 23.66처럼 BMI 값이 나오는데 여기서 BMI를 확인하고 자신이 어느정도인지 확인할수있는 창을 만들었고 
+밑에 저체중 ~ 고도비만까지 각각의 색을 입혀서 경각심을 느끼게끔 제작을 해보았다. 
+
+
+
 ## 0406 이재현 프로젝트
-### 수정작업 
+### 0406 수정 작업 
 ##### 첫 화면
+
 ![default](img/joljack.jpg)
 └─첫화면을 지정하고 뼈대를 지정하면서 기초 화면을 구현<br>
 ##### 실행시 메인으로 들어갈 화면
