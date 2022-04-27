@@ -2,8 +2,8 @@
 팀명 : 투게더 <br>
 이름 : 강현준(리더),김민호(코딩),이재현(디자인)... <br> 
 운동일지를 적는 어플리케이션 <br>
-졸업작품 소개 사이트 : <URL> <br>
-포트폴리오 소개 사이트 : <URL> <br>
+졸업작품 소개 사이트 : URL : <a>minho98.github.io</a> <br>
+포트폴리오 소개 사이트 : minho98.github.io <br>
 
 [졸업작품소개]
 - 작품명 : 운동 캘린더 <br>
@@ -18,6 +18,53 @@ ex) <br>
 ~~... <br>
 내용은 자유 <br>
 예) 회의 내용, 개발 과정, 오류해결, 보고서 작성(제출) <br> -->
+
+## 0427 이재현 프로젝트
+
+### 타이머 기능 구현
+<img src="img/timer_main.png" width=200px height="250px">
+<img src="img/timer_end.png" width=200px height="250px">
+
+<br>
+지난 프로젝트 시간에는 버튼만
+구현이 되어있던 <br> <b>타이머</b> 기능을 구현
+하단에 시작 버튼과 멈춤(stop)버튼을 구현하였고
+현재 시작버튼만 Java와 연동하여 실행이가능
+추후 멈춤(stop)버튼도 구현할 예정
+<br>
+타이머가 기능을 종료할시에 하단에 종료되었다는
+text를 추가하여 종료되었음을 알림
+
+```
+import java.util.Timer;
+import java.util.TimerTask;
+└─ 타이머 기능을 위해 추가한 두가지의 import
+```
+
+### 메인화면 색상 재구성 
+<img src="img/main01_2_0420.png" width=200px height="250px">
+<br>
+메인화면 색상 재구성 및 버튼에 적용되어있던 text 글자 수정 <br>
+추후에 하단 BMI text값을 가운데로 적용한것을 토론한후에 괜찮다고 의견이 나오면 메인화면에도 적용할 예정 <br>
+뒤에 단위 cm, kg, 세가 적용도 <b>추후 예정</b>
+
+## BMI 재수정작업
+<img src="img/0420.png" width="200" height="350">
+<br>
+- 기존 UI에서 상자기준 좌측에서부터 시작되는 숫자값들의 입력을
+가운데에서 시작할수있게끔 수정 <br>
+- 키보드를 보면 알수있지만 현재 숫자말고도 입력이 가능하게되어있기에 숫자만 입력할수있게 코드 직업을 수정
+
+```
+android:textAlignment="center"
+└ 텍스트값이 가운데로 오게끔 만들어주는 코드
+android:inputType="number"
+└ 키보드에 숫자값만 적을수있는 코드 
+```
+
+
+
+
 
 ## 0413 이재현 프로젝트
 ![0413](https://user-images.githubusercontent.com/79895999/163120776-b8402880-19b8-44d9-a622-27cf94e99653.png)
