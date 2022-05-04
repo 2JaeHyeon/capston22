@@ -19,6 +19,48 @@ ex) <br>
 내용은 자유 <br>
 예) 회의 내용, 개발 과정, 오류해결, 보고서 작성(제출) <br> -->
 
+## 0504 이재현 프로젝트
+### 동영상 페이지 제작 [VideoView 적용]
+<img src="img/press.png" width=200px height="250px">
+<br>
+<b>영상을 누르면 정지시킬수있는 '컨트롤바'적용</b>
+<br>
+<br>
+운동상세페이지, 상체, 하체 버튼을 <br>
+클릭시 운동 목록이 나오고 목록에서 다시 눌렀을때 <br>
+위의 사진과같이 동영상, 운동명, 운동소개
+크게 3가지가 나오게끔 제작
+
+```
+activity에 VideoView를 생성
+
+<Java에서 import적용>
+import android.media.MediaPlayer;
+import android.net.Uri;
+import android.os.Bundle;
+import android.widget.MediaController;
+import android.widget.VideoView;
+
+activity에서 id를 주고 vv로 생성
+
+videoUri = Uri.parse("android.resource://"+getPackageName()+"/"+ R.raw.plz);
+
+->raw라는 폴더를 생성하고 plz라는.mp4파일을
+적용
+
+<uses-permission android:name="android.permission.INTERNET"/>
+android:usesCleartextTraffic="true"
+
+└ 위 두항목의 코드를 Internet에 있는 오픈 영상을 사용하기 위해서 사용
+
+```
+
+문제점 : 여러가지의 영상을 찾고 코드에 대입해야하는데 용량이 많을것으로 예상된다 
+
+유튜브로 연동하려고했으나 저작권 문제가있어 보류
+
+
+
 ## 0427 이재현 프로젝트
 
 ### 타이머 기능 구현
