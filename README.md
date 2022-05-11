@@ -19,6 +19,38 @@ ex) <br>
 내용은 자유 <br>
 예) 회의 내용, 개발 과정, 오류해결, 보고서 작성(제출) <br> -->
 
+## 0511 이재현 프로젝트
+
+전체적인 UI 개선 <br>
+BackGroundColor : #A8DEF5 <br>
+btn color : #fddb00 <br>
+text color : #23346C <br>
+버튼 색상과 버튼 안에 있는 text color 변경<br>
+<img src="img/btn_color.png" width=150px height="100px">
+<br>
+<br>
+운동항목을 추가 <br>
+<img src="img/health_btn_all.png" width=150px height="300px">
+<br>
+버튼 눌렀을때 비디오와 운동 설명란 <br>
+<img src="img/health_vedio.png" width=150px height="200px">
+
+
+### 동영상 삽입
+
+<img src="img/vedio.png"> <br>
+<b>manifests</b>에 있는 세부 설정값에서 
+추가해주어야 동영상이 원활하게 재생이가능
+```
+<activity
+            android:name=".TopHealth 1~7"
+            android:exported="false" />
+```
+액티비티 값으로 1~7까지 적어서 동영상이 재생할수
+있게끔 설정해주었음
+
+
+
 ## 0504 이재현 프로젝트
 ### 동영상 페이지 제작 [VideoView 적용]
 <img src="img/press.png" width=200px height="250px">
