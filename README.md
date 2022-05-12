@@ -28,13 +28,20 @@ text color : #23346C <br>
 버튼 색상과 버튼 안에 있는 text color 변경<br>
 <img src="img/btn_color.png" width=150px height="100px">
 <br>
-<br>
-운동항목을 추가 <br>
-<img src="img/health_btn_all.png" width=150px height="300px">
-<br>
-버튼 눌렀을때 비디오와 운동 설명란 <br>
-<img src="img/health_vedio.png" width=150px height="200px">
 
+### 운동항목을 추가 및 버튼 눌렀을때 비디오와 운동 설명
+<img src="img/health_btn_all.png" width=150px height="300px">
+<img src="img/health_vedio.png" width=150px height="200px">
+<br>
+
+### 폰트 설정 및 크기 디자인 변경 <br>
+<img src="img/vedio_font.png" width=150px height="200px">
+```
+android:fontFamily="@font/kangwon_tt_bold"
+폰트를 다운로드 받아서
+font라는 폴더를 생성후 
+받아오는 방식으로 폰트를 적용
+```
 
 ### 동영상 삽입
 
@@ -48,7 +55,7 @@ text color : #23346C <br>
 ```
 액티비티 값으로 1~7까지 적어서 동영상이 재생할수
 있게끔 설정해주었음
-
+<br>
 
 
 ## 0504 이재현 프로젝트
