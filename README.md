@@ -19,6 +19,55 @@ ex) <br>
 내용은 자유 <br>
 예) 회의 내용, 개발 과정, 오류해결, 보고서 작성(제출) <br> -->
 
+## 0518 이재현 프로잭트
+
+### Sub항목 버튼 디자인 변경
+<img src="img/sub_btn_sold.png" width=150px height="200px"><br>
+버튼 디자인을 테두리 색상만 남기고 적용
+```
+parent="Theme.AppCompat.Light"
+로 값을 변경 
+기존 적용되어있던 값을 제외하고 새롭게 변경
+```
+
+### 메인화면 디자인 조정
+<img src="img/main_welcome.png" width=150px height="200px"><br>
+제일 먼저 실행 하였을때 나오는 <br>
+화면이 심심하다고 생각하여 위에 문구 하나를 추가
+
+
+### 상.하체 버튼에서 (하체 버튼 동작 구현)
+<img src="img/bottom_work_btn7.png" width=150px height="200px"><br>
+상체와 똑같이 버튼 7개를 구현
+<br>
+<img src="img/bottom_vedio.png" width=150px height="200px"><br>
+상체와 마찬가지로 같이 동영상, 소개, 주의사항을 
+적어서 작성하였다.
+
+### BMI 결과창 색상 변경
+```
+setTextColor(Color.parseColor("#ba78d9"));
+
+BMI 계산 측정값에 따라서 글자 색을 변경해주는 
+java 코드를 작성
+"Color.parseColor("#ba78d9")"를 추가하여 #000000값을 받는 색상코드로 변경해서 색을 적용 
+```
+<img src="img/bmi_end_color.png" width=150px height="200px"><br>
+
+
+## 0512 이재현 프로젝트
+
+### 폰트 설정 및 크기 디자인 변경 <br>
+<img src="img/vedio_font.png" width=150px height="200px">
+```
+android:fontFamily="@font/kangwon_tt_bold"
+폰트를 다운로드 받아서
+font라는 폴더를 생성후 
+받아오는 방식으로 폰트를 적용
+```
+
+
+
 ## 0511 이재현 프로젝트
 
 전체적인 UI 개선 <br>
@@ -34,14 +83,6 @@ text color : #23346C <br>
 <img src="img/health_vedio.png" width=150px height="200px">
 <br>
 
-### 폰트 설정 및 크기 디자인 변경 <br>
-<img src="img/vedio_font.png" width=150px height="200px">
-```
-android:fontFamily="@font/kangwon_tt_bold"
-폰트를 다운로드 받아서
-font라는 폴더를 생성후 
-받아오는 방식으로 폰트를 적용
-```
 
 ### 동영상 삽입
 
