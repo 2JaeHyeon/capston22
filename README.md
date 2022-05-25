@@ -19,7 +19,17 @@ ex) <br>
 내용은 자유 <br>
 예) 회의 내용, 개발 과정, 오류해결, 보고서 작성(제출) <br> -->
 
-## 0518 이재현 프로잭트
+## 0525 이재현 프로젝트
+<img src="img/b4/date_page.png" width=150px height="200px"><br>
+<img src="img/b4/bmi_page.png" width=150px height="200px"><br>
+<b>상세 운동 7개의 버튼을 제외</b>한 모든 버튼형식의 디자인을 하나로 통합하고 폰트 및 크기 조정
+
+
+<img src="img/b4_mian.png" width=150px height="200px"><br>
+일러스트를 이용하여 B4규격의 포스터를 제작하였다
+
+
+## 0518 이재현 프로젝트
 
 ### Sub항목 버튼 디자인 변경
 <img src="img/sub_btn_sold.png" width=150px height="200px"><br>
